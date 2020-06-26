@@ -1,0 +1,72 @@
+틀린단어 : figure : 수치,계산,인물
+틀린단어 : brief : 짧은,잠시동안의
+틀린단어 : efficient : 능률적인,효율적인
+틀린단어 : demonstrate : 설명하다,증명하다
+틀린단어 : idle : 일하지않는
+틀린단어 : involve : 포함하다,의미하다
+틀린단어 : consistent : 한결같은, 일관된
+틀린단어 : interconnect : 상호연결되다
+틀린단어 : interconnection : 상호연결
+틀린단어 : fashion : 방법
+틀린단어 : achieve : 이루다, 획득하다
+틀린단어 : operational : 가동상의
+틀린단어 : perform : 실행하다, 행하다
+틀린단어 : remains : 남은 것, 나머지
+틀린단어 : enable : 가능하게 하다
+틀린단어 : execution : 실행
+틀린단어 : complement : 보완하다,덧붙이다
+틀린단어 : completion : 완료, 완성
+틀린단어 : exceptional : 이례적인, 뛰어난
+틀린단어 : sequence : 연속적, 순차적
+틀린단어 : precede : -에 앞서다
+틀린단어 : precedent : 선례, 판례
+틀린단어 : relation : 관계, 관련성
+틀린단어 : retrieval : 되찾음, 회수
+틀린단어 : retrievability :  회복력,복구가능성
+틀린단어 : generate : 발생시키다
+틀린단어 : discipline : 훈련, 규율, 방법
+틀린단어 : nature : 성질, 기질, 특질
+틀린단어 : dependant : 의존, 결정, 신뢰
+틀린단어 : disable : 무능력하게하다
+틀린단어 : ignorance : 무시
+틀린단어 : remains : 남은 것, 나머지
+틀린단어 : performative : 수행적인
+틀린단어 : volatile : 휘발성
+틀린단어 : environmental : 환경의
+틀린단어 : equipment : 장치, 장비
+틀린단어 : terminal : 단말기
+틀린단어 : depict : 묘사하다, 그리다
+틀린단어 : internal : 안의, 내부의
+틀린단어 : internalization : 내면화
+틀린단어 : interpret : 해석하다
+틀린단어 : interpretablel : 해석할 수 있는
+틀린단어 : processor : 수행자
+틀린단어 : determine : 알아내다, 밝히다
+틀린단어 : transfer : 옮기다, 이동하다
+틀린단어 : permanent : 원인, 목적, 논점
+틀린단어 : cause : 내면화
+틀린단어 : critical :  인정하다,승인하다
+틀린단어 : absorbed :  -에 몰두한
+틀린단어 : absorb : 흡수하다
+틀린단어 : consider :  생각하다
+틀린단어 : considerable :   상당한, 많은
+틀린단어 : consideration :  사려, 숙고
+틀린단어 : extraordinary :  비범한, 임시의
+틀린단어 : honor : 명예, 영예
+틀린단어 : principal : 주요한, 주된
+틀린단어 : responsible : 책임지고 있는
+틀린단어 : isolate : 고립하다,분리하다
+틀린단어 : independence : 독립, 자유
+틀린단어 : concern : 영향을 끼치다
+틀린단어 : assign : 할당하다
+틀린단어 : modular : 모듈 식의 
+틀린단어 : undergo :  겪다
+틀린단어 : essence :  본질, 정수, 진수
+틀린단어 : necessity : 필요, 필수품, 불가피한 일
+틀린단어 : emphasize : 강조, 역점, 주안점
+틀린단어 : inverse : 역의, 반대의
+틀린단어 : prevail : 팽배하다, 만연하다
+틀린단어 : sophisticate : 세련된 사람
+틀린단어 : occurrence : 발생하는 것, 나타남
+틀린단어 : cautious : 조심스러운, 신중한
+틀린단어 : entry : 입장, 등장
