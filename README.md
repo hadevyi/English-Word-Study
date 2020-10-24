@@ -1,82 +1,90 @@
 # English_Word_Study
-## 프로젝트명 : 영단어 학습 프로그램
 
-- 개발환경 : Eclipse Oxygen, HeidiSQL
-- 사용기술 : Java, MySQL
+## English Language Learning Program
 
-- 개발 인원 : 3명
-- 프로젝트 기간 :  2017.09.12 - 2017.12.05 (총 85일;약 2달 2주)
+<br>
+<div align="right">
+
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) <a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/English_Word_Study"/></a>
+
+</div>
+
+- Usage: Java, MySQL
+- Development personnel: 3 persons
+- Development Environment: Eclipse Oxygen, HeidiSQL
+- Project Period: 2017.09.12 - 2017.12.05 (Total 85 days;About 2 months and 2 weeks)
 
 ---
 
-### <프로젝트 개발>
+## Motive
 
-프로그램 개발 시, 현재의 불편함을 해결하는 것에 초점을 맞추어 주제를 선정하였다. 영단어 공부에 어려움에 팀원들이 가장 많이 공감하여 해당 내용을 기반으로 설계하게 되었다.
+When developing the program, a topic was selected with a focus on solving the current discomfort. The team members sympathized the most with the difficulty in studying English words, so the design was based on the content.
 
-실제 영단어를 공부하는 방법들을 모아, 기능으로 설계하였다. DataBase를 사용해보며, 원하는 기능을 보다 더 효율적으로 활용하였다.
+Methods to study actual English words were collected and designed as functions. I tried using DataBase and utilized the desired function more efficiently.
 
----
+<br>
 
-### <프로젝트 소개>
+## Introduce
 
-언제든 원하는 기능을 추가/검색/오답 단어를 확인할 수 있는 화면과 오답 단어로만 재시험을 칠 수 있도록 하는 화면, 또 오답여부와 관계없이 시험을 볼 수 있는 내용과 시험 결과를 보여주는 화면, 학습을 하며 일정 시간동안 반복하여 단어를 보여주는 화면으로 구성하였다. 세부적인 내용에 따라 별개의 .java로 구성하였다.
+A screen that allows you to add/search/check the wrong answer word at any time, a screen that allows you to retake the test with only the wrong answer word, and a screen that shows the contents and test results that you can take the test regardless of whether or not you have an incorrect answer, and a schedule while learning It consisted of a screen showing words repeatedly over time. It is composed of separate .java according to the details.
 
-- **담당 업무** : 프로젝트 팀장, 디자인 제작, 기능 설계 및 SW/TW/MV/RW 구현, 데이터베이스 설계
+- **My Job** : Project team leader, design production, functional design and SW/TW/MV/RW implementation, database design
 
-- 시스템 구성
+<br>
+
+## System configuration
 
 ![database](https://user-images.githubusercontent.com/45550607/85915319-5126a300-b881-11ea-840a-fe025843873e.png)
 
-**[EWS]** : Project Main 화면
+| Function |                                   Detail                                    |
+| :------: | :-------------------------------------------------------------------------: |
+|   EWS    |                             Project Main Screen                             |
+|    SW    | Repetitive learning of 30 random words in 7 seconds (automatic) or manually |
+|    TW    |               Take the test with the contents learned with SW               |
+|    TR    |                          Show the results of TW/RW                          |
+|    MV    |              Add English word, search, check incorrect answer               |
+|          |                   Only wrong answers can create txt file                    |
+|    RW    |                   Take the test only with incorrect words                   |
 
-**[SW]** : Study Word, 랜덤한 30개의 영단어응 7초(자동) 혹은 수동으로 반복 학습 ****
+<br>
 
-**[TW]** : Test Word, SW로 학습한 내용으로 시험 응시
-
-**[TR]** : Test Result, TW/RW의 결과를 보여줌
-
-**[MV]** : More View, 영단어 추가, 검색, 오답 확인
-
-     -   오답만 txt file 생성 가능
-
-**[RW]** : Restudy Word, 오답 단어들로만 시험 응시
-
-- 데이터베이스(DB) 구성
+## Database configuration
 
 ![database_code](https://user-images.githubusercontent.com/45550607/85915320-51bf3980-b881-11ea-8fce-a11c34acf1fc.png)
 
-▲ Database에서 찾아 Project로 연결하는 코드
+▲ Code to find in Database and connect to Project
 
-- Idx(key) : 각 단어의 부여하는 숫자
+|   Name   |                      Explanation                      |
+| :------: | :---------------------------------------------------: |
+| Idx(key) |                  Number of each word                  |
+|   word   |                     English word                      |
+|   mean   |                    Korean meaning                     |
+|  Passed  | After the test, check according to the passing status |
 
-- word : 영단어
+<br>
 
-- mean : 한글 뜻
+## Project execution screen
 
-- Passed : 시험 후 통과 유무에 따라 체크
-
-- 프로젝트 실행 화면
-
-- 첫 화면(EWS)
+- First screen(EWS)
 
 ![first](https://user-images.githubusercontent.com/45550607/85915321-51bf3980-b881-11ea-8380-1b14aa8af7ca.png)
 
-- 학습 화면(SW)
+- Learning screen(SW)
 
 ![slide](https://user-images.githubusercontent.com/45550607/85915317-4ff57600-b881-11ea-9885-3df674f7a416.png)
 
-- 시험 화면(TW/RW)
+- Test screen(TW/RW)
 
 ![test](https://user-images.githubusercontent.com/45550607/85915318-5126a300-b881-11ea-9c94-8825cd3dbb8f.png)
 
-- 추가 기능 화면(MV)
+- Add-on screen(MV)
 
 ![menu](https://user-images.githubusercontent.com/45550607/85915322-5257d000-b881-11ea-9c1f-257ae16ed391.png)
 
-- 현재 등록된 단어 확인 화면
+- Current registered word confirmation screen
 
 ![not_correct_output](https://user-images.githubusercontent.com/45550607/85915324-52f06680-b881-11ea-98cd-e66b4b05f68b.png)
 
-- 틀린단어 모음 화면
+- Wrong word collection screen
 
 ![not_correct](https://user-images.githubusercontent.com/45550607/85915323-52f06680-b881-11ea-9d16-343017f9059b.png)
