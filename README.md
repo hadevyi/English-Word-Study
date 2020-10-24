@@ -14,7 +14,7 @@
 - Development Environment: Eclipse Oxygen, HeidiSQL
 - Project Period: 2017.09.12 - 2017.12.05 (Total 85 days;About 2 months and 2 weeks)
 
----
+<br>
 
 ## Motive
 
